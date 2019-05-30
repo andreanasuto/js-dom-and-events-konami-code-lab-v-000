@@ -4,8 +4,8 @@ let index = 0
 function init() {
   // Write your JavaScript code inside the init() function
   return document.body.addEventListener('keydown', function (e) {
-    if (e.which || e.details) {
-
+    for (var i = 0; i < array.length; i++) {
+      code[i] == input
     }
   })
 }
