@@ -3,18 +3,9 @@ let index = 0
 
 function init() {
   // Write your JavaScript code inside the init() function
-  return document.body.addEventListener('keydown', function(e) {
-  const key = parseInt(e.detail || e.key)
-  if (key === code[index]) {
-      index++;
+  return document.body.addEventListener('keydown', function (e) {
+    if (e.which || e.details) {
 
-      if (index === code.length) {
-        alert("Hurray!");
-
-        index = 0;
-      }
-    } else {
-      index = 0;
     }
   })
 }
