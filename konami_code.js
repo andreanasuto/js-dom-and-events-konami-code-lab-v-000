@@ -11,6 +11,8 @@ function init() {
       if (index === code.lenght) {
         return alert('Hurray')
       }
+    } else {
+      index = 0
     }
   })
 }
