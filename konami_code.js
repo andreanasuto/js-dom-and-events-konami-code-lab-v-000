@@ -8,6 +8,9 @@ function init() {
 
     if (input === code[index]) {
       index++
+      if (index === code.lenght) {
+        return alert('Hurray')
+      }
     }
   })
 }
